@@ -1,0 +1,54 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+}
+
+.game {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+
+.square {
+  position: relative;
+  width: 50px; /* Adjusted width for better display of name */
+  height: 50px; /* Adjusted height for better display of name */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+}
+
+.name-input {
+  color:#000;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  z-index: 10;
+}
+
+.button-input {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  z-index: 10;
+}
+
+.square-name{
+  position:absolute;
+  color: black;
+  top: -30px;
+  left: -10px;
+  z-index: 30;
+  width: 200px;
+}
